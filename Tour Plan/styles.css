@@ -1,0 +1,17 @@
+ul{
+    list-style-type: none;
+}
+
+h1{
+    width:100%;
+    text-align:center;
+    color:#F0D9D0;
+    background-color:#E2B080;
+    padding:20px 0px;
+}
+.container{
+    background-color:#F0D9D0;
+}
+html{
+    font-size:1.2em;
+}
