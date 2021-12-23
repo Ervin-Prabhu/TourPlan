@@ -3,7 +3,6 @@ ul{
 }
 
 h1{
-    width:100%;
     text-align:center;
     color:#F0D9D0;
     background-color:#E2B080;
@@ -13,5 +12,13 @@ h1{
     background-color:#F0D9D0;
 }
 html{
-    font-size:1.2em;
+    font-size:1em;
+}
+
+footer > h5
+{
+    text-align:center;
+    color:#F0D9D0;
+    background-color:#8E806A;
+    padding:20px 0px;
 }
