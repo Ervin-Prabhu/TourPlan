@@ -11,8 +11,8 @@ h1{
     margin-bottom:0;
 }
 nav>ul>li{
-    /* display: inline; */
-    text-align:center;
+    display: inline;
+    /* text-align:center; */
 }
 nav>ul>li>button>a{
     text-decoration: none;
@@ -63,5 +63,6 @@ img{
     padding:0;
     margin:0;
   }
+
 
  
