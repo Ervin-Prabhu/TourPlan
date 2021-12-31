@@ -32,3 +32,16 @@ img{
     width:200px;
     height:auto;
 }
+
+
+
+.sticky-container {
+    position:relative;
+  }
+  
+  .sticky-this {
+    background-color:#F0D9D0;
+    position:sticky;
+    height:auto;
+    top:0%;
+  }
