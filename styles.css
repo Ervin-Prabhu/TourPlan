@@ -11,23 +11,29 @@ h1{
     margin-bottom:0;
 }
 nav>ul>li{
-    display: inline;
+    /* display: inline; */
     /* text-align:center; */
+}
+nav>ul{
+    padding-left:0px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 nav>ul>li>button>a{
     text-decoration: none;
-    font-size: 20px;
+    /* font-size: 20px; */
     padding:10px;
     /* color:yellow; */
 }
 .btnclass{
+    display:inline;
     color:aquamarine;
     border-radius: 40px;
 }
-#countdown{
-    /* color:#F0D9D0; */
-    writing-mode: bt-rl;
-}
+
 .container{
     background-color:#F0D9D0;
 }
