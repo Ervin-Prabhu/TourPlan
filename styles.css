@@ -12,8 +12,8 @@ h1{
 }
 #countdown{
     /* color:#F0D9D0; */
+    writing-mode: bt-rl;
 }
-
 .container{
     background-color:#F0D9D0;
 }
@@ -44,5 +44,8 @@ img{
     background-color:#F0D9D0;
     position:sticky;
     height:auto;
+    width:auto;
     top:0%;
+    padding:0;
+    margin:0;
   }
