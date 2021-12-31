@@ -35,13 +35,14 @@ img{
 
 
 
-.sticky-container {
+.sticky-container 
+{
     position:relative;
-  }
+}
   
   .sticky-this {
     background-color:#F0D9D0;
     position:sticky;
     height:auto;
-    top:0%;
+    top:10%;
   }
