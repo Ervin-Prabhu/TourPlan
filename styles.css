@@ -13,6 +13,7 @@ h1{
 nav>ul>li{
     /* display: inline; */
     /* text-align:center; */
+    width:33%;
 }
 nav>ul{
     padding-left:0px;
