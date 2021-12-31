@@ -1,6 +1,6 @@
 var countdown = document.getElementById("countdown");
 var countDownDate = new Date("Jan 4, 2022 23:55:00").getTime();
-
+// var countDownDate = new Date("Dec 31, 2021 12:51:00").getTime();
 // Update the count down every 1 second
 var x = setInterval(function() {
 
@@ -23,6 +23,8 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    countdown.innerHTML = "EXPIRED";
+    countdown.innerHTML = " ";
+    document.getElementById("togo").innerHTML = " "
+    countdown.style = "border:none"
   }
 }, 1000);
