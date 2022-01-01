@@ -49,7 +49,7 @@ function showticket(id,btnid)
 
 
 
-var clothinglist = ["Casual Dresses x 4", "Track pants/shorts x 4", "T-shirts x 4", "Sweater x 1", "HandGloves x 1","Beanie Cap x 1"]
+var clothinglist = ["Casual Dress Pair x 4","Belt","Innerwear x 4", "Track pants/shorts x 4", "T-shirts x 4", "Sweater x 1", "HandGloves x 1","Beanie Cap x 1"]
 clothinglist.forEach((item)=>{
   var label = document.createElement("label");
   var input = document.createElement("input");
@@ -110,7 +110,7 @@ linens.forEach((item)=>{
   document.getElementById("linens").append(input,label,brk);
 })
 
-var others = ["Water Bottels x 2", "Spoon x 1", "Fork x 1", "Cup x 1" ,"knief", "s"]
+var others = ["Water Bottels x 2", "Spoon x 1", "Fork x 1", "Cup x 1" ,"knief", "scissor", "Covers for wet clothes", "Shades", "Match box", "Mosquito replent"]
 others.forEach((item)=>{
   var label = document.createElement("label");
   var input = document.createElement("input");
@@ -120,4 +120,28 @@ others.forEach((item)=>{
   label.style = "margin-left:10px"
 
   document.getElementById("others").append(input,label,brk);
+})
+
+var snacks = ["Instant Noodels cups", "chocolate bars", "biscuits"]
+snacks.forEach((item)=>{
+  var label = document.createElement("label");
+  var input = document.createElement("input");
+  input.setAttribute("type","checkbox");
+  var brk = document.createElement("br");
+  label.innerHTML = item;
+  label.style = "margin-left:10px"
+
+  document.getElementById("snacks").append(input,label,brk);
+})
+
+var medicalkit = ["Paracetmol x 5", "Azithromycin x 5", "Antidiarrheal pills x sheet-1", "ORS packets x 4", " Pain relief spay", "ear swabs", "cotton", "Painkiller tabs x 5"]
+medicalkit.forEach((item)=>{
+  var label = document.createElement("label");
+  var input = document.createElement("input");
+  input.setAttribute("type","checkbox");
+  var brk = document.createElement("br");
+  label.innerHTML = item;
+  label.style = "margin-left:10px"
+
+  document.getElementById("medicalkit").append(input,label,brk);
 })
