@@ -5,25 +5,26 @@ ul{
     font-family: Courier;
 }
 header{
-    background: url(./Images/backgroundimg.jfif);
+   
+    padding:0 !important;
 }
 h1{
     font-family: cursive;
+    background-color: #282120;
     text-align:center;
-    color: #2b2525;
+    color: #F8EFE4;
     padding:20px 0px;
     margin-bottom:0;
 }
 
 .container{
-    /* background-color:#F0D9D0; */
-    background: url(./Images/backgroundimg.jfif);
+    background-color:#F8EFE4;
 }
 html{
     font-size:1em;
 }
 #countdowndiv{
-    font-size: 24px;
+    font-size: 30px;
     font-family:Courier;
     text-align:center;
     padding:0 20px;
@@ -58,7 +59,7 @@ img{
 }
   
   .sticky-this {
-    /* background-color:#F0D9D0; */
+    background-color:#F8EFE4;
     position:sticky;
     height:30px;
     width:auto;
