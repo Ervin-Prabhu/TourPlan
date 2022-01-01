@@ -45,3 +45,16 @@ function showticket(id,btnid)
     document.getElementById(btnid).innerHTML = "Show Ticket"
   }
 }
+
+
+
+var checklist = ["Casual Dresses x 4", "Sweater x 1", "HandGloves x 1","Beanie Cap x 1"]
+checklist.forEach((item)=>{
+  var label = document.createElement("label");
+  var input = document.createElement("input");
+  input.setAttribute("type","checkbox");
+  var brk = document.createElement("br");
+  label.innerHTML = item;
+
+  document.getElementById("check").append(input,label,brk);
+})
