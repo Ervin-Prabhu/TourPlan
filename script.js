@@ -25,7 +25,8 @@ var x = setInterval(function() {
     clearInterval(x);
     countdown.innerHTML = " ";
     document.getElementById("countdowndiv").style = "display:none"
-    countdown.style = "border:none"
+    countdown.style = "border:none";
+    document.getElementById("unwantedhr").style.display = "none";
   }
 }, 1000);
 
