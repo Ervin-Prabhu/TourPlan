@@ -55,6 +55,7 @@ checklist.forEach((item)=>{
   input.setAttribute("type","checkbox");
   var brk = document.createElement("br");
   label.innerHTML = item;
+  label.style = "margin-left:10px"
 
   document.getElementById("check").append(input,label,brk);
 })

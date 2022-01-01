@@ -1,11 +1,17 @@
+details>summary#day1, summary#day2, summary#day3, summary#day4, summary#day5, summary#day6, summary#luggage{
+    margin-left:25%;
+}
 
-
-ul{
+details>ul{
     list-style-type: none;
     font-family: Courier;
+    text-align:center;
+    margin-left:0;
+    
 }
 li{
     color:#d64220;
+    
 }
 header{
    
@@ -22,9 +28,6 @@ h1{
 
 .container{
     background-color:#F8EFE4;
-    display:flex;
-    height:100%;
-    flex-direction: column;
 }
 html{
     font-size:1em;
@@ -46,12 +49,11 @@ footer > h5
     margin:0;
 }
 footer{
-    /* position:fixed; */
-    /* bottom:0px;
+    position:sticky;
+    bottom:0px;
     left:0px;
     right:0px;
-    margin-bottom:0px; */
-    margin-top:auto;
+    margin-bottom:0px;
 }
 img{
     width:200px;
@@ -63,6 +65,7 @@ img{
 .sticky-container 
 {
     position:relative;
+    padding-bottom: 50px;
 }
   
   .sticky-this {
