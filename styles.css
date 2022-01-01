@@ -49,13 +49,21 @@ footer > h5
     color:#F0D9D0;
     background-color:#8E806A;
     padding:10px 0px;
+    margin:0;
+}
+footer{
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
 }
 img{
     width:200px;
     height:auto;
 }
 
-
+ 
 
 .sticky-container 
 {
