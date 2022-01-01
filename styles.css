@@ -4,6 +4,9 @@ ul{
     list-style-type: none;
     font-family: Courier;
 }
+li{
+    color:#d64220;
+}
 header{
    
     padding:0 !important;
