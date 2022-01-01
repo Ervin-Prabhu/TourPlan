@@ -4,13 +4,15 @@ ul{
     list-style-type: none;
     font-family: Courier;
 }
-
+header{
+    background: url(./Images/backgroundimg.jfif);
+}
 h1{
     font-family: cursive;
     text-align:center;
     color:#F0D9D0;
     color:black;
-    background-color:#E2B080;
+    /* background-color:#E2B080; */
     padding:20px 0px;
     margin-bottom:0;
 }
@@ -22,7 +24,7 @@ html{
     font-size:1em;
 }
 #countdowndiv{
-    font-size: 16px;
+    font-size: 20px;
     font-family:Courier;
     text-align:center;
     padding:20px;
@@ -68,6 +70,13 @@ img{
 summary{
     font-size:18px;
     font-family: cursive;
+}
+details summary {
+    list-style-type: '👇 ';
+}
+
+details[open] summary {
+    list-style-type: '👆 ';
 }
 
  
