@@ -10,24 +10,23 @@ header{
 h1{
     font-family: cursive;
     text-align:center;
-    color:#F0D9D0;
-    color:black;
-    /* background-color:#E2B080; */
+    color: #2b2525;
     padding:20px 0px;
     margin-bottom:0;
 }
 
 .container{
-    background-color:#F0D9D0;
+    /* background-color:#F0D9D0; */
+    background: url(./Images/backgroundimg.jfif);
 }
 html{
     font-size:1em;
 }
 #countdowndiv{
-    font-size: 20px;
+    font-size: 24px;
     font-family:Courier;
     text-align:center;
-    padding:20px;
+    padding:0 20px;
 }
 
 footer > h5
@@ -59,7 +58,7 @@ img{
 }
   
   .sticky-this {
-    background-color:#F0D9D0;
+    /* background-color:#F0D9D0; */
     position:sticky;
     height:30px;
     width:auto;
