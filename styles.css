@@ -13,24 +13,24 @@ h1{
 nav>ul>li{
     /* display: inline; */
     /* text-align:center; */
-    width:33%;
+    /* width:33%; */
 }
 nav>ul{
     padding-left:0px;
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 nav>ul>li>button>a{
     text-decoration: none;
-    /* font-size: 20px; */
+    /* font-size: 15px; */
     padding:16px 18px;
     /* color:yellow; */
 }
 .btnclass{
-    display:inline;
+    /* display:inline; */
     color:aquamarine;
     border-radius: 40px;
 }
