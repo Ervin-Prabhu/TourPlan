@@ -1,6 +1,6 @@
 var countdown = document.getElementById("countdown");
-var countDownDate = new Date("Jan 4, 2022 21:00:00").getTime();
-// var countDownDate = new Date("Dec 31, 2021 12:51:00").getTime();
+// var countDownDate = new Date("Jan 4, 2022 21:00:00").getTime();
+var countDownDate = new Date("Jan 1, 2022 14:06:50").getTime();
 // Update the count down every 1 second
 var x = setInterval(function() {
 
@@ -24,7 +24,24 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     countdown.innerHTML = " ";
-    document.getElementById("togo").innerHTML = " "
+    document.getElementById("countdowndiv").style = "display:none"
     countdown.style = "border:none"
   }
 }, 1000);
+
+function showticket(id,btnid)
+{
+  console.log(id,btnid)
+  console.log(document.getElementById(id).style.display)
+  if(document.getElementById(id).style.display === "none")
+  {
+    document.getElementById(id).style.display = "block"
+    document.getElementById(id).style= "vertical-align:middle"
+    document.getElementById(btnid).innerHTML = "Hide Ticket"
+  }
+  else
+  {
+    document.getElementById(id).style.display = "none"
+    document.getElementById(btnid).innerHTML = "Show Ticket"
+  }
+}

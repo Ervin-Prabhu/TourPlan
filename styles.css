@@ -1,8 +1,12 @@
+
+
 ul{
     list-style-type: none;
+    font-family: Courier;
 }
 
 h1{
+    font-family: cursive;
     text-align:center;
     color:#F0D9D0;
     color:black;
@@ -10,36 +14,17 @@ h1{
     padding:20px 0px;
     margin-bottom:0;
 }
-nav>ul>li{
-    /* display: inline; */
-    /* text-align:center; */
-    /* width:33%; */
-}
-nav>ul{
-    padding-left:0px;
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-nav>ul>li>button>a{
-    text-decoration: none;
-    /* font-size: 15px; */
-    padding:16px 18px;
-    /* color:yellow; */
-}
-.btnclass{
-    /* display:inline; */
-    color:aquamarine;
-    border-radius: 40px;
-}
 
 .container{
     background-color:#F0D9D0;
 }
 html{
     font-size:1em;
+}
+#countdowndiv{
+    font-size: 12px;
+    text-align:center;
+    padding:20px;
 }
 
 footer > h5
@@ -73,12 +58,15 @@ img{
   .sticky-this {
     background-color:#F0D9D0;
     position:sticky;
-    height:auto;
+    height:30px;
     width:auto;
     top:0%;
-    padding:0;
+    padding:10;
     margin:0;
   }
-
+summary{
+    font-size:14px;
+    font-family: cursive;
+}
 
  
