@@ -49,8 +49,8 @@ function showticket(id,btnid)
 
 
 
-var checklist = ["Casual Dresses x 4", "Sweater x 1", "HandGloves x 1","Beanie Cap x 1"]
-checklist.forEach((item)=>{
+var clothinglist = ["Casual Dresses x 4", "Track pants/shorts x 4", "T-shirts x 4", "Sweater x 1", "HandGloves x 1","Beanie Cap x 1"]
+clothinglist.forEach((item)=>{
   var label = document.createElement("label");
   var input = document.createElement("input");
   input.setAttribute("type","checkbox");
@@ -58,5 +58,66 @@ checklist.forEach((item)=>{
   label.innerHTML = item;
   label.style = "margin-left:10px"
 
-  document.getElementById("check").append(input,label,brk);
+  document.getElementById("clothing").append(input,label,brk);
+})
+
+var footwearlist = ["Shoes x 1", "Socks x 2", "Flipflops x 1"]
+footwearlist.forEach((item)=>{
+  var label = document.createElement("label");
+  var input = document.createElement("input");
+  input.setAttribute("type","checkbox");
+  var brk = document.createElement("br");
+  label.innerHTML = item;
+  label.style = "margin-left:10px"
+
+  document.getElementById("footwear").append(input,label,brk);
+})
+
+var electronicslist = ["Powerbank", "Charger", "Headphoes/Earphones", "Bluetooth Speaker"]
+electronicslist.forEach((item)=>{
+  var label = document.createElement("label");
+  var input = document.createElement("input");
+  input.setAttribute("type","checkbox");
+  var brk = document.createElement("br");
+  label.innerHTML = item;
+  label.style = "margin-left:10px"
+
+  document.getElementById("electronics").append(input,label,brk);
+})
+
+
+var toiletries = ["Tooth brush", "Tooth Paste", "Tounge Cleaner", "Soap", "Shampoo", "Handwash", "Sanitizer", "Masks x 6", ]
+toiletries.forEach((item)=>{
+  var label = document.createElement("label");
+  var input = document.createElement("input");
+  input.setAttribute("type","checkbox");
+  var brk = document.createElement("br");
+  label.innerHTML = item;
+  label.style = "margin-left:10px"
+
+  document.getElementById("toiletries").append(input,label,brk);
+})
+
+var linens = ["Blanket x 1", "Towels x 2", "Napkin x 1", "Handkerchief x 3"]
+linens.forEach((item)=>{
+  var label = document.createElement("label");
+  var input = document.createElement("input");
+  input.setAttribute("type","checkbox");
+  var brk = document.createElement("br");
+  label.innerHTML = item;
+  label.style = "margin-left:10px"
+
+  document.getElementById("linens").append(input,label,brk);
+})
+
+var others = ["Water Bottels x 2", "Spoon x 1", "Fork x 1", "Cup x 1" ,"knief", "s"]
+others.forEach((item)=>{
+  var label = document.createElement("label");
+  var input = document.createElement("input");
+  input.setAttribute("type","checkbox");
+  var brk = document.createElement("br");
+  label.innerHTML = item;
+  label.style = "margin-left:10px"
+
+  document.getElementById("others").append(input,label,brk);
 })

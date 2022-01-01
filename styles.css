@@ -1,5 +1,6 @@
 details>summary#day1, summary#day2, summary#day3, summary#day4, summary#day5, summary#day6, summary#luggage{
     margin-left:25%;
+    width:55%;
 }
 
 details>ul{
@@ -88,7 +89,7 @@ details[open] summary {
     list-style-type: '👆 ';
 }
 
-#check{
+.check{
     text-align:left;
     margin-left:30%;
 }
