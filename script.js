@@ -110,7 +110,7 @@ linens.forEach((item)=>{
   document.getElementById("linens").append(input,label,brk);
 })
 
-var others = ["Water Bottels x 2", "Spoon x 1", "Fork x 1", "Cup x 1" ,"knief", "scissor", "Covers for wet clothes", "Shades", "Match box", "Mosquito replent"]
+var others = ["Aadhar card(mandatory)", "Water Bottels x 2", "Spoon x 1", "Fork x 1", "Cup x 1" ,"knief", "scissor", "Torch light", "Covers for wet clothes", "Shades", "Match box", "Mosquito replent"]
 others.forEach((item)=>{
   var label = document.createElement("label");
   var input = document.createElement("input");
